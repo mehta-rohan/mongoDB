@@ -26,7 +26,6 @@ console.log(name);
 
 
 //search
-
 MongoClient.connect('mongodb://localhost:27017/todoApp',(err,db)=>{
 	if(err){
 		return console.log(err);
